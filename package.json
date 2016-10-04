@@ -1,0 +1,36 @@
+{
+  "name": "soccer",
+  "version": "0.0.1",
+  "description": "- Нужен сервак на котором будет хоститься игра - Сервак должен отдавать игру, и хранить score игроков - Игру можно сделать использую pixi.js (https://www.npmjs.com/package/pixi.js)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g8extended/soccer.git"
+  },
+  "author": "g8.extended",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g8extended/soccer/issues"
+  },
+  "homepage": "https://github.com/g8extended/soccer#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pixi.js": "^4.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-2": "^6.5.0",
+    "bundle-loader": "^0.5.4",
+    "directory-colorfy": "https://github.com/romisbbx/directory-colorfy/tarball/v0.6.2",
+    "jshint-loader-reporter": "^1.0.4",
+    "parallelshell": "latest",
+    "webpack": "^1.12.9"
+  }
+}
